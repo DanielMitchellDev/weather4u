@@ -1,0 +1,88 @@
+.panel{
+	background-color: lightgray;
+	padding: 0;
+	
+}
+.main-temp{
+	margin-top: 5px;
+}
+.main-weather{
+	margin-top: 10px;
+}
+.main-min{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.main-humidity{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.main-max{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.main-min-value{
+	margin-top: 5px;
+}
+.main-humidity-value{
+	margin-top: 5px;
+}
+.main-max-value{
+	margin-top: 5px;
+}
+
+
+.fix{
+	position: relative;
+  	left: .25em;
+}
+.fix1{
+	 position: relative;
+  	left: .15em;
+}
+.fix2{
+  	position: relative;
+  	left: .2em;
+}
+.fix3{
+	position: relative;
+  	left: .2em;
+}
+
+/* dynamic backgrounds */
+.rain-background{
+	background-image: url('../img/rain-background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.clear-background{
+	background-image: url('../img/clear-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.clouds-background{
+	background-image: url('../img/cloudy-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.drizzle-background{
+	background-image: url('../img/drizzle-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.extreme-background{
+	background-image: url('../img/extreme-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.snow-background{
+	background-image: url('../img/snow-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.thunderstorm-background{
+	background-image: url('../img/thunderstorm-background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
